@@ -2,10 +2,10 @@ import React from 'react'
 // import { Link } from 'gatsby'
 import Image from '../components/image'
 
-import Layout from '../components/layout'
+// import Layout from '../components/layout'
 
 const SecondPage = () => (
-  <Layout>
+  <div>
     <div className="container">
       <div className="text-wrapper" id="press">
         <h3 id="kicker">Press Release</h3>
@@ -71,7 +71,7 @@ const SecondPage = () => (
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/446066007%3Fsecret_token%3Ds-scJhU&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       />
     </div>
-  </Layout>
+  </div>
 )
 
 export default SecondPage
