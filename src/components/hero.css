@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background: floralwhite;
+}
+
+.img-wrapper {
+  flex: 1;
+  min-width: 360px;
+}
+
+.text-wrapper {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+h1, h2, h3, h4, p, a, li {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h1, h3 {
+  font-weight: 500;
+  color: darkslategray;
+}
+
+h1 {
+  color: darkslategray;
+}
+
+
+a {
+  text-decoration: none;
+  color: lightseagreen;
+  transition: all .2s ease-in-out;
+}
+a:hover {
+  color: darkslategray;
+  transform: scale(1.1);
+}
+
+img {
+  object-fit: cover;
+}
+
+.card {
+  background: rebeccapurple;
+  padding: 20px 10px;
+  margin: 30px 20px;
+  border-radius: 5px;
+  max-width: 450px;
+  transform: rotate(2deg);
+  border: 2px solid lightgray;
+}
+.card h2 {
+  color: lightgrey;
+}
+
+.pulsate {
+  color: yellow;
+  border: 1px dotted yellow;
+  width: 200px;
+  margin: auto;
+  -webkit-animation: pulsate 2s ease-out;
+  -webkit-animation-iteration-count: infinite; 
+  opacity: 0.5;
+}
+.pulsate:hover {
+  border: 1px solid yellow;
+  -webkit-animation: none;
+  opacity: 1;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.7;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.7;
+    }
+}
+
+/* press page overrides */
+#press {
+  text-align: left;
+  justify-content: flex-start;
+}
+#links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px;
+  background: ghostwhite;
+}
+#kicker {
+  align-self: flex-start;
+}
+.bands {
+  display: flex;
+}
+.bands a {
+  margin-right: 10px;
+}
+/* .sc-wrapper {
+  max-width: none;
+}
+iframe {
+  margin: auto;
+} */
+/* .navlinks {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 90px;
+} */
